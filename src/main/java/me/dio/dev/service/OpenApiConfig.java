@@ -11,8 +11,8 @@ public class OpenApiConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Your API Title")
+                        .title("APP Teste")
                         .version("1.0")
-                        .description("Your API Description"));
+                        .description("Apenas um teste RESTful"));
     }
 }
